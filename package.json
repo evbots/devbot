@@ -1,0 +1,56 @@
+{
+  "name": "devbot",
+  "version": "1.0.0",
+  "description": "A helpful slackbot assistant for developers",
+  "keywords": [
+    "Slack",
+    "bot",
+    "github"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evbots/devbot"
+  },
+  "bugs": {
+    "url": "https://github.com/evbots/devbot/issues"
+  },
+  "main": "lib/devbot.js",
+  "bin": {
+    "devbot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "debug": "node debug bin/bot.js"
+  },
+  "author": {
+    "name": "Evan Botello"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "botkit": "^0.0.12",
+    "botkit-storage-redis": "^1.0.1",
+    "simple-oauth2": "^0.6.0",
+    "query-string": "^4.1.0",
+    "octonode": "^0.7.5"
+  },
+  "devDependencies": {
+    "xo": "^0.5.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ]
+    }
+  }
+}
