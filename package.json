@@ -15,12 +15,9 @@
     "url": "https://github.com/evbots/devbot/issues"
   },
   "main": "lib/devbot.js",
-  "bin": {
-    "devbot": "bin/bot.js"
-  },
   "scripts": {
-    "start": "node bin/bot.js",
-    "debug": "node debug bin/bot.js"
+    "start": "node lib/devbot.js",
+    "debug": "node debug lib/devbot.js"
   },
   "author": {
     "name": "Evan Botello"
