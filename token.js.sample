@@ -1,6 +1,0 @@
-process.env['clientId']='XXXXX'
-process.env['clientSecret']='XXXXXX'
-process.env['port']=3000
-process.env['githubClientId']='XXXXX'
-process.env['githubClientSecret']='XXXXX'
-process.env['baseBotUri']='http://example.com'

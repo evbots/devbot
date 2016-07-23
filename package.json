@@ -34,7 +34,8 @@
     "botkit-storage-redis": "^1.0.1",
     "simple-oauth2": "^0.6.0",
     "query-string": "^4.1.0",
-    "octonode": "^0.7.5"
+    "octonode": "^0.7.5",
+    "dotenv": "2.0.0"
   },
   "devDependencies": {
     "xo": "^0.5.2"
