@@ -1,1 +1,1 @@
-worker: node lib/devbot.js
+web: node lib/devbot.js
