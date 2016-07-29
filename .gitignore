@@ -28,3 +28,6 @@ node_modules
 
 #do not commit editor config files
 .idea
+
+#redis
+dump.rdb
